@@ -44,7 +44,7 @@ npm start
 ```json
 {
   "formTitle": "Project Requirements Survey",
-  "formDescription": "Tell us about your project needs",
+  "formDescription": "Project needs to be keep here",
   "fields": [
     {
       "id": "projectName",
@@ -60,6 +60,7 @@ npm start
       "options": [
         { "value": "web", "label": "Web Application" },
         { "value": "mobile", "label": "Mobile App" },
+        { "value": "page", "label": "Web Page" }
         { "value": "desktop", "label": "Desktop Software" }
       ]
     },
@@ -69,9 +70,10 @@ npm start
       "label": "Budget Range",
       "required": true,
       "options": [
-        { "value": "small", "label": "$1k - $5k" },
-        { "value": "medium", "label": "$5k - $15k" },
-        { "value": "large", "label": "$15k+" }
+        { "value": "small", "label": "10K - 15K" },
+        { "value": "medium", "label": "5K - 15K" },
+        { "value": "large", "label": "5K" }
+        { "value": "lgmedium", "label": "5K - 15K" },
       ]
     }
   ]

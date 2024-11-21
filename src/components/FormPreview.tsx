@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useForm, RegisterOptions } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { FormSchema, FormField } from "../types/form";
 import { downloadJson } from "../utils/fileUtils";
 
